@@ -33,18 +33,3 @@ gcc -o hello hello.c
 ```
 
 the above piece of line in a terminal says that. we are using gcc to convert the source code `hello.c` into machine executable .exe file `hello` this can be runned by `./hello`. On a high level the whole thing that is happening around is, a piece of source code is being converted into a way that it is easily executable by the computer rapidly.
-
-# 3. Variables and Statements
-
-The variables are generally considered as a container to hold values, while it is true we can have a better way of understanding this, Variables are a human readable name referred to a numeric address where the value that the variable holds stored in the memory. 
-
-While declaring the variables we might have to give the type to it. C has few types of data
-
-| Type | Example | Syntax |
-| --- | --- | --- |
-| Integer  | 2000 | int |
-| Float  | 3.14  | float |
-| Char | “C” | char |
-| String | “Hello world” | char * |
-
-Arguably in C, there might or might not be a separate data type called as boolean, so we can just straightaway call the non-zero values as `true` 0 is `false`
